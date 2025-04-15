@@ -1,0 +1,176 @@
+body{
+    background-color: blue;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+#input1{
+    width: 400px;
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+#input2{
+    width: 400px;
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.add{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: darkgreen;
+}
+
+.minus{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.minus:hover{
+    background-color: darkgreen;
+}
+
+.umnoshit{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.umnoshit:hover{
+    background-color: darkgreen;
+}
+
+.delet{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.delet:hover{
+    background-color: darkgreen;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#result h2{
+    font-size: 30px;
+    color: white;
+}
+
+#result p{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+@media (max-width: 768px) {
+    #input1, #input2 {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .btn {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .add, .minus, .umnoshit, .delet {
+        width: 90%;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    #result h2 {
+        font-size: 24px;
+    }
+
+    #result p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        gap: 10px;
+    }
+
+    .add, .minus, .umnoshit, .delet {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #result h2 {
+        font-size: 20px;
+    }
+
+    #result p {
+        font-size: 16px;
+    }
+}
